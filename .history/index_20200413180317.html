@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Lib Game</title>
+</head>
+<body>
+    <header>
+        <h1>Mad Lib</h1>
+      </header>
+      
+      <div id="game">
+        <div id="words">
+          <p>Please fill in the following spaces then click the button to read your story!</p>
+          <p>Verb that ends in -ing:</p>
+          <input type="text" id="firstVerb" required></input>
+          <p>Different Verb in Past Tense:</p>
+          <input type="text" id="pastVerb"></input>
+          <p>Singular Noun:</p>
+          <input type="text" id="firstNoun"></input>
+          <p>Adjective:</p>
+          <input type="text" id="firstAdjective"></input>
+          <p> Another Adjective:</p>
+          <input type="text" id="secondAdjective"></input>
+          <p>Emotion:</p>
+          <input type="text" id="firstEmotion"></input>
+          <p>Adverb:</p>
+          <input type="text" id="firstAdverb"></input><br>
+          <button onClick="madLibs()">Mad Lib!</button>
+        </div>
+      
+        <div id="story">
+      
+        </div>
+      </div>
+</body>
+</html>

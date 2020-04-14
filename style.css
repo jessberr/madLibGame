@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+* {
+  font-family: "Source Sans Pro";
+}
+body {
+  background-color: #202040;
+}
+input {
+  border: 1px solid #ff6363;
+  color: #000;
+}
+header {
+  text-align: center;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+h1 {
+  color: #ffbd69;
+  font-size: 50px;
+}
+
+p {
+  color: #fff;
+}
+#story {
+  line-height: 50px;
+  margin: 0 10%;
+}
+#game {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 20px;
+}
+
+input {
+  font-size: 30px;
+  padding: 15px;
+}
+button {
+  margin: 3em;
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffbd69;
+  border: none;
+  font-size: 30px;
+}
+
+.missing-word {
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0 5px;
+  text-transform: lowercase;
+  background: #fff;
+  padding: 5px;
+  color: #202040;
+  font-size: 20px;
+  font-family: "Architects Daughter";
+}
